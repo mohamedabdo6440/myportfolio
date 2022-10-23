@@ -31,51 +31,48 @@ function Skills() {
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn">
                             <h2>Skills</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                            <p>FrontEnd_Developer
+                                I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.</p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                                <div className="item">
-                                    <i class="fa-solid fa-code fa-3x" style={{ margin: "25px" }}></i>
-                                    <h5>Web Development</h5>
-                                </div>
-                                <div className="item">
-                                    <span>
 
-                                        <i class="fa-brands fa-react fa-3x" style={{ margin: "25px" }}></i>
-
-                                    </span>
-                                    <h5>REACT JS.. DEVELOPER</h5>
-                                </div>
                                 <div className="item">
                                     <i class="fa-brands fa-js fa-3x" style={{ margin: "25px" }}></i>
                                     <h5>JAVASCRIPT</h5>
+                                    <h5>( ES6 )</h5>
+                                </div>
+
+                                <div className="item">
+                                    <span>
+                                        <i class="fa-brands fa-react fa-3x" style={{ margin: "25px" }}></i>
+                                    </span>
+                                    <h5>REACT.JS</h5>
+                                    <h5>( Redux - Hooks )</h5>
                                 </div>
                                 <div className="item">
                                     <i class="fa-brands fa-html5 fa-3x" style={{ margin: "25px" }}></i>
-                                    <h5>HTML</h5>
+                                    <h5>HTML5</h5>
                                 </div>
                                 <div className="item">
                                     <i class="fa-brands fa-css3-alt fa-3x" style={{ margin: "25px" }}></i>
-                                    <h5>CSS</h5>
+                                    <h5>CSS3</h5>
                                 </div>
                                 <div className="item">
                                     <i class="fa-solid fa-blog fa-3x" style={{ margin: "25px" }}></i>
                                     <h5>JQUERY</h5>
+                                    <h5>{'(good knowlage)'}</h5>
                                 </div>
                                 <div className="item">
                                     <i class="fa-brands fa-bootstrap fa-3x" style={{ margin: "25px" }}></i>
                                     <h5>BOOTSTRAP</h5>
                                 </div>
-                                <div className="item">
-                                    <i class="fa-brands fa-sass fa-3x" style={{ margin: "25px" }}></i>
-                                    <h5>SASS</h5>
-                                </div>
+
                                 <div className="item">
                                     <i class="fa-solid fa-plug-circle-plus fa-3x" style={{ margin: "25px" }}></i>
                                     <h5>API</h5>
                                 </div>
                                 <div className="item">
                                     <i class="fa-solid fa-code-branch fa-3x" style={{ margin: "25px" }}></i>
-                                    <h5>GET</h5>
+                                    <h5>Git & Github</h5>
                                 </div>
                             </Carousel>
                         </div>

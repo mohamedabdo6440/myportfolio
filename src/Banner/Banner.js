@@ -11,7 +11,7 @@ function Banner() {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = ["Web Developer", "Web Designer", "React JS.. Developer"];
+    const toRotate = ["Front End Developer", "React.JS"];
     const period = 2000;
 
     useEffect(() => {
@@ -56,8 +56,9 @@ function Banner() {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span className="tagline">Welcome to my Portfolio</span>
-                                    <h2>{`Hi! I'm Mohamed`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "React JS.. Developer" ]'><span className="wrap">{text}</span></span></h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <h2>{`I'm Mohamed Abdo ,`}</h2>
+                                    <h4><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Front End Developer", "React.JS" ]'><span className="wrap">{text}</span></span></h4>
+                                    <p>I built many front-end projects completely and also, I developed some projects to suit the needs of the client and the company, I love my work very much and strive to learn the best and nothing stops me</p>
                                     <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRight size={25} /></button>
                                 </div>}
                         </TrackVisibility>

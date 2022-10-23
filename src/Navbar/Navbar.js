@@ -6,7 +6,7 @@ import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 
 
-
+import { BsFillFileCodeFill, BsFillTelephonePlusFill } from "react-icons/bs";
 
 
 function NavBar() {
@@ -42,7 +42,7 @@ function NavBar() {
             <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
                 <Container>
                     <Navbar.Brand href="/" id="/">
-                        <span style={{ color: "rgb(225 25 198)", fontSize: "40px", fontFamily: "cursive", }}>M</span>
+                        <span style={{ color: "rgb(225 25 198)", fontSize: "40px", fontFamily: "cursive", }}> <BsFillFileCodeFill />M</span>
                         <span style={{ color: "#a23ec5", fontSize: "40px", fontFamily: "cursive", }}>A</span>
 
                     </Navbar.Brand>
@@ -65,7 +65,7 @@ function NavBar() {
                             </div>
 
                             <Nav>
-                                <Nav.Link id="ConnectBtn" href="#Connect">Let's Connect</Nav.Link>
+                                <Nav.Link id="ConnectBtn" href="#Connect"><BsFillTelephonePlusFill /> Let's Connect</Nav.Link>
                             </Nav>
                         </span>
                     </Navbar.Collapse>

@@ -1,17 +1,17 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { MailchimpForm } from "../MailchimpForm/MailchimpForm";
+
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-
+import { BsFillFileCodeFill } from "react-icons/bs";
 function Footer() {
     return (
         <footer className="footer">
             <Container>
                 <Row className="align-items-center">
-                    <MailchimpForm />
+
                     <Col size={12} sm={6}>
-                        <span style={{ color: "rgb(225 25 198)", fontSize: "40px", fontFamily: "cursive", }}>M</span>
+                        <span style={{ color: "rgb(225 25 198)", fontSize: "40px", fontFamily: "cursive", }}><BsFillFileCodeFill />M</span>
                         <span style={{ color: "#a23ec5", fontSize: "40px", fontFamily: "cursive", }}>A</span>
                     </Col>
                     <Col size={12} sm={6} className="text-center text-sm-end">
@@ -21,7 +21,7 @@ function Footer() {
                             <a href="https://www.instagram.com/m7md_3bdo_3sr/" rel="noreferrer" target={"_blank"}><img src={navIcon3} alt=""></img></a>
 
                         </div>
-                        <p>Copyright 2022. All Rights Reserved <span style={{ color: "#ff8484" }}>Mohamed Abdo</span></p>
+                        <p> c 2022 All Rights Reserved <span style={{ color: "#ff8484" }}>Mohamed Abdo</span></p>
                     </Col>
                 </Row>
             </Container>
